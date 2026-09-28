@@ -1,5 +1,7 @@
 # studio99-python
 
+[![PyPI](https://img.shields.io/pypi/v/studio99)](https://pypi.org/project/studio99/)
+
 Official Python client for the **Studio99 Indic Typography API**: exact Hindi, Marathi, Gujarati and English text as editable SVG and PNG, from real calligraphy fonts.
 
 - Standard library only (no dependencies), Python 3.9+
@@ -9,8 +11,6 @@ Official Python client for the **Studio99 Indic Typography API**: exact Hindi, M
 
 ```bash
 pip install studio99
-# or, before the PyPI release:
-pip install git+https://github.com/studio99-app/studio99-python
 ```
 
 Get an API key at https://accounts.studio99.app/dashboard/products/studio99-api (Free plan: 100 credits a month, watermarked previews).
