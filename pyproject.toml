@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "studio99"
+version = "0.1.0"
+description = "Official Python client for the Studio99 Indic Typography API: exact Hindi, Marathi, Gujarati and English typography as editable SVG and PNG."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "ArtoMania Studio Private Limited", email = "reach@studio99.app" }]
+keywords = ["studio99", "hindi", "marathi", "gujarati", "devanagari", "calligraphy", "typography", "indic", "svg"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Text Processing :: Fonts",
+  "Topic :: Multimedia :: Graphics",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://studio99.app/developers"
+Documentation = "https://studio99.app/developers/docs"
+Source = "https://github.com/studio99-app/studio99-python"
+Changelog = "https://studio99.app/developers/changelog"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/studio99"]
